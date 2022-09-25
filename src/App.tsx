@@ -11,7 +11,6 @@ import { GithubIcon } from './GithubIcon';
 import { randomString, waitTimeout } from './utils';
 import { defaultTheme } from './themes/default';
 import { Icon, Theme } from './themes/interface';
-import { fishermanTheme } from './themes/fisherman';
 import { jinlunTheme } from './themes/jinlun';
 import { ikunTheme } from './themes/ikun';
 import { pddTheme } from './themes/pdd';
@@ -22,7 +21,6 @@ import { owTheme } from './themes/ow';
 // 主题
 const themes = [
     defaultTheme,
-    fishermanTheme,
     jinlunTheme,
     ikunTheme,
     pddTheme,
